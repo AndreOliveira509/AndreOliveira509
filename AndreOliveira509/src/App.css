@@ -3,17 +3,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f7f7f7;
-  color: #333;
+  font-family: sans-serif;
   line-height: 1.6;
 }
 
 a {
-  color: #007BFF;
   text-decoration: none;
 }
 
@@ -23,15 +21,20 @@ a:hover {
 
 /* Container geral */
 .container {
-  max-width: 1000px;
-  margin: auto;
+  width: 100%;
   padding: 2rem;
 }
 
 /* Header */
 header {
-  text-align: center;
-  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+  color: white;
+  background-color: black;
+  justify-content: center;
 }
 
 header h1 {
@@ -40,14 +43,20 @@ header h1 {
 }
 
 nav a {
+  color: white;
   margin: 0 1rem;
   font-weight: 500;
+}
+nav a:hover {
+  text-decoration: underline;
 }
 
 /* Hero */
 .hero {
   text-align: center;
   margin: 3rem 0;
+  width: 100%;
+  height: 80vh;
 }
 
 .hero h2 {
@@ -57,12 +66,12 @@ nav a {
 
 .hero p {
   font-size: 1.1rem;
-  color: #555;
 }
 
 /* Projetos */
 .projects {
-  margin: 4rem 0;
+  width: 100%;
+  height: 100vh;
 }
 
 .projects h2 {
@@ -79,12 +88,8 @@ nav a {
 }
 
 .project-card {
-  background-color: white;
   padding: 1.5rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
   width: 250px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s;
 }
 
@@ -107,11 +112,10 @@ footer {
   text-align: center;
   margin: 2rem 0;
   font-size: 0.9rem;
-  color: #666;
 }
 
 footer a {
-  color: #007BFF;
+  text-decoration: underline;
 }
 
 /* Responsivo */

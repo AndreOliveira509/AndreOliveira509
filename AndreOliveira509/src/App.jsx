@@ -2,8 +2,8 @@ import './App.css';
 import Header from './componentes/header';
 import Hero from './componentes/hero';
 import Projects from './componentes/projects';
-import About from './componentes/About';
-import Footer from './componentes/Footer';
+import About from './componentes/about';
+import Footer from './componentes/footer';
 
 function App() {
   return (
