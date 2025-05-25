@@ -7,7 +7,7 @@ function Projects() {
         <div className="project-card">
           <h3>Clima por CEP</h3>
           <p>Aplicativo que consome a API do OpenWeatherMap para mostrar o clima atual de uma cidade via CEP.</p>
-          <a href="https://github.com/seuusuario/clima-por-cep" target="_blank">Ver no GitHub</a>
+          <a href="https://andreoliveira509.github.io/clima-api/" target="_blank">Ver no GitHub</a>
         </div>
 
         <div className="project-card">
@@ -28,9 +28,9 @@ function Projects() {
           <a href="https://github.com/seuusuario/jogo-da-memoria" target="_blank">Ver no GitHub</a>
         </div>
         <div className="project-card">
-          <h3>Quiz Educacional</h3>
-          <p>Quiz com perguntas e respostas para revisão de conteúdo escolar, ideal para vestibulandos.</p>
-          <a href="https://github.com/seuusuario/quiz-educacional" target="_blank">Ver no GitHub</a>
+          <h3>Flashfy</h3>
+          <p>Trabalho de Conclusão de Curso</p>
+          <a href="flashfy.github.io/" target="_blank">Ver no GitHub</a>
         </div>
 
         <div className="project-card">
