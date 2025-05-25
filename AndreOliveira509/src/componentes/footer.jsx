@@ -1,11 +1,13 @@
 function Footer() {
-    return (
-      <footer id="contato" className="footer">
-        <p>Contato: <a href="mailto:seuemail@email.com">andreeeluis2303@email.com</a></p>
-        <p>&copy; 2025 André Oliveira</p>
-      </footer>
-    );
-  }
-  
-  export default Footer;
-  
+  return (
+    <footer className="footer">
+      <p>© 2025 André Oliveira. Todos os direitos reservados.</p>
+      <div className="social-links">
+        <a href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer">GitHub</a> |{" "}
+        <a href="https://linkedin.com/in/seu-usuario" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </div>
+    </footer>
+  );
+}
+
+export default Footer;
