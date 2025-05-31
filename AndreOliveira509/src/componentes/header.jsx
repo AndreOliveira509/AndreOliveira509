@@ -6,8 +6,6 @@ function Header() {
         <a href="#sobre">Sobre</a>
         <a href="#projetos">Projetos</a>
         <a href="#contato">Contato</a>
-        <a href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://linkedin.com/in/seu-usuario" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </nav>
     </header>
   );
