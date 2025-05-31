@@ -26,7 +26,7 @@ function Projects() {
           <h3>To-Do List com React</h3>
           <p>Lista de tarefas com persistência no localStorage, estilizada com Tailwind.</p>
           <div className="project-links">
-            <a href="https://github.com/seuusuario/todo-react" target="_blank" rel="noopener noreferrer">Ver repositório</a>
+            <a href="https://github.com/AndreOliveira509/SmartPlanner-React" target="_blank" rel="noopener noreferrer">Ver repositório</a>
             <a href="https://seuusuario.github.io/todo-react/" target="_blank" rel="noopener noreferrer">Ver site</a>
           </div>
         </div>
@@ -44,7 +44,7 @@ function Projects() {
           <h3>CRUD com Node.js</h3>
           <p>Aplicação completa de cadastro de usuários com Node, Express e Sequelize.</p>
           <div className="project-links">
-            <a href="https://github.com/seuusuario/crud-node" target="_blank" rel="noopener noreferrer">Ver repositório</a>
+            <a href="https://github.com/AndreOliveira509/cadastro-clientes" target="_blank" rel="noopener noreferrer">Ver repositório</a>
             <a href="https://seuusuario.github.io/crud-node/" target="_blank" rel="noopener noreferrer">Ver site</a>
           </div>
         </div>
